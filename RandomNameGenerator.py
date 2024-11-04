@@ -6,7 +6,7 @@ import random
 # Initialize Faker
 fake = Faker()
 
-def generate_surnames(char_count, n = 20):
+def generate_surnames(char_count, n = 60): #if a different number of names is needed, change number here
     surnames = set()
 
     # Generate surnames untill we have enough with the specified character count
